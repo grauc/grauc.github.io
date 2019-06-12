@@ -26,6 +26,10 @@
   padding: .9rem 0;
 }
 
+#mainNav .navbar-brand .navbar-logo {
+  height: 120px;
+}
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
@@ -67,6 +71,9 @@
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
+  }
+  #mainNav.navbar-shrink .navbar-brand .navbar-logo {
+    height: 57px;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
