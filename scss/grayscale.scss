@@ -62,3 +62,45 @@ footer {
   height: 40px;
   background-color: rgba(0,0,0,.2);
 }
+
+
+// Toolbar
+.toolbar-a {
+  margin-top: 11px;
+  font-size: 13px;
+  .menu-toolbar-item {
+    color: rgba(255,255,255,1);
+    padding-right: 14px;
+    &:hover {
+      color: rgba(255,255,255,.6);
+    }
+  }
+}
+
+.toolbar-phone {
+  padding-top: 0;
+  .fa-phone-alt {
+    font-size: 26px;
+    top: 4px;
+    position: relative;
+  }
+  .phone-number {
+    color: #f89932;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
+
+.socials-links {
+  padding-top: 4px;
+  font-size: 22px;
+  .socials-item-link {
+    color: rgba(255,255,255,1);
+    padding-left: 8px;
+    // padding-right: 3px;
+    &:hover {
+      color: rgba(255,255,255,.6);
+    }
+  }
+}

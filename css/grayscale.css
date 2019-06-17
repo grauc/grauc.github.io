@@ -112,7 +112,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -333,4 +333,49 @@ footer {
   color: rgba(255, 255, 255, 0.66);
   height: 40px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.toolbar-a {
+  margin-top: 11px;
+  font-size: 13px;
+}
+
+.toolbar-a .menu-toolbar-item {
+  color: white;
+  padding-right: 14px;
+}
+
+.toolbar-a .menu-toolbar-item:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.toolbar-phone {
+  padding-top: 0;
+}
+
+.toolbar-phone .fa-phone-alt {
+  font-size: 26px;
+  top: 4px;
+  position: relative;
+}
+
+.toolbar-phone .phone-number {
+  color: #f89932;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.socials-links {
+  padding-top: 4px;
+  font-size: 22px;
+}
+
+.socials-links .socials-item-link {
+  color: white;
+  padding-left: 8px;
+}
+
+.socials-links .socials-item-link:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
