@@ -37,3 +37,70 @@ a {
 footer {
   padding: 5rem 0;
 }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.masthead-carousel
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 30%;
+}
+
+.subheader {
+  transition-timing-function: cubic-bezier(.78,.13,.15,.86);
+}
+.menu-toolbar {
+  color: rgba(255,255,255,.66);
+  height: 40px;
+  background-color: rgba(0,0,0,.2);
+}
+
+
+// Toolbar
+.toolbar-a {
+  margin-top: 11px;
+  font-size: 13px;
+  .menu-toolbar-item {
+    color: rgba(255,255,255,1);
+    padding-right: 14px;
+    &:hover {
+      color: rgba(255,255,255,.6);
+    }
+  }
+}
+
+.toolbar-phone {
+  padding-top: 0;
+  .fa-phone-alt {
+    font-size: 26px;
+    top: 4px;
+    position: relative;
+  }
+  .phone-number {
+    color: #f89932;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
+
+.socials-links {
+  padding-top: 4px;
+  font-size: 22px;
+  .socials-item-link {
+    color: rgba(255,255,255,1);
+    padding-left: 8px;
+    // padding-right: 3px;
+    &:hover {
+      color: rgba(255,255,255,.6);
+    }
+  }
+}

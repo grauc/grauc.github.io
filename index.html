@@ -5,10 +5,29 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Grupo de Resgate e Atendimento de Urgência dos Carnaubais">
+  <meta name="author" content="Ruan Aragão">
 
   <title>GRAUC - RESGATE VOLUNTÁRIO DE CAMPO MAIOR</title>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +45,37 @@
 <body id="page-top">
 
   <!-- Navigation -->
+  
+  <div class="fixed-top subheader menu-toolbar">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 toolbar-a">
+          <a class="menu-toolbar-item" href="#doe">Doe agora</a>
+          <a class="menu-toolbar-item" href="#volunteer">Seja um voluntário</a>
+          <a class="menu-toolbar-item" href="#blog">Blog</a>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center toolbar-phone">
+          <i class="fas fa-phone-alt"></i>
+          <span class="phone-number">
+            (86) 99595-5855
+          </span>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right socials-links">
+          <a class="socials-item-link" target="_blank" href="https://www.facebook.com/graucresgate">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="socials-item-link" target="_blank" href="https://www.instagram.com/graucresgate">
+            <i class="fab fa-instagram"></i>
+          </a>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -38,13 +88,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Quem Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#operacional">Operacional</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Cursos e Treinamentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contato</a>
           </li>
         </ul>
       </div>
@@ -52,7 +105,51 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead-carousel masthead">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./img/banner_bombeiros_full-1.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="mx-auto my-0 text-uppercase">Seja um voluntário</h1>
+            <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">Seja um apoiador dos voluntários!</h2> -->
+            <a href="#about" class="btn btn-lg btn-warning js-scroll-trigger">Entrar em contato</a>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/banner_bombeiros2_full.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="mx-auto my-0 text-uppercase">Seja um apoiador</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">Seja um apoiador do GRAUC!</h2>
+            <a href="#about" class="btn btn-lg btn-warning js-scroll-trigger">Apoiar</a>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/banner-novo.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="mx-auto my-0 text-uppercase">Centro de treinamento</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">conheça nosso centro de treinamentos</h2>
+            <a href="#about" class="btn btn-lg btn-warning js-scroll-trigger">Conheça</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+    
+  <!-- <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">APOIE</h1>
@@ -60,7 +157,7 @@
         <a href="#about" class="btn btn-primary js-scroll-trigger">Apoiar</a>
       </div>
     </div>
-  </header>
+  </header> -->
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">

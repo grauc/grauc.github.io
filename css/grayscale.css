@@ -6,14 +6,15 @@
 
 #mainNav {
   min-height: 56px;
+  margin-top: 40px;
   background-color: #fff;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #a04040;
+  border: 1px solid #a04040;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -58,7 +59,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -67,6 +68,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
+    margin-top: 0;
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -81,15 +83,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #a04040;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #692a2a;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #a04040;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #a04040;
   }
 }
 
@@ -99,8 +101,6 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -112,7 +112,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -157,20 +157,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #a04040;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #7c3131;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #7c3131;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #692a2a !important;
 }
 
 .about-section {
@@ -194,7 +194,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #a04040;
   }
 }
 
@@ -208,7 +208,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #a04040;
     border-width: .25rem;
     width: 30%;
   }
@@ -242,7 +242,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #a04040;
 }
 
 .contact-section .card h4 {
@@ -253,7 +253,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #a04040;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -286,12 +286,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #a04040;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #572323;
 }
 
 .bg-black {
@@ -299,13 +299,83 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #a04040 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #a04040 !important;
 }
 
 footer {
   padding: 5rem 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.masthead-carousel
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 30%;
+}
+
+.subheader {
+  -webkit-transition-timing-function: cubic-bezier(0.78, 0.13, 0.15, 0.86);
+  transition-timing-function: cubic-bezier(0.78, 0.13, 0.15, 0.86);
+}
+
+.menu-toolbar {
+  color: rgba(255, 255, 255, 0.66);
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.toolbar-a {
+  margin-top: 11px;
+  font-size: 13px;
+}
+
+.toolbar-a .menu-toolbar-item {
+  color: white;
+  padding-right: 14px;
+}
+
+.toolbar-a .menu-toolbar-item:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.toolbar-phone {
+  padding-top: 0;
+}
+
+.toolbar-phone .fa-phone-alt {
+  font-size: 26px;
+  top: 4px;
+  position: relative;
+}
+
+.toolbar-phone .phone-number {
+  color: #f89932;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.socials-links {
+  padding-top: 4px;
+  font-size: 22px;
+}
+
+.socials-links .socials-item-link {
+  color: white;
+  padding-left: 8px;
+}
+
+.socials-links .socials-item-link:hover {
+  color: rgba(255, 255, 255, 0.6);
 }

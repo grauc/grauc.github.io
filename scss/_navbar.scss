@@ -1,5 +1,6 @@
 #mainNav {
   min-height: 56px;
+  margin-top: 40px;
   background-color: $white;
   .navbar-toggler {
     font-size: 80%;
@@ -45,7 +46,7 @@
     .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($white, .5);
+      color: fade-out($white, .0);
       &:hover {
         color: fade-out($white, .25);
       }
@@ -54,6 +55,7 @@
       }
     }
     &.navbar-shrink {
+      margin-top: 0;
       background-color: $white;
       .navbar-brand {
         color: $black;
