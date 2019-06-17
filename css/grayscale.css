@@ -95,12 +95,39 @@
   }
 }
 
+@media (max-width: 575.98px) {
+  #mainNav {
+    min-height: 90px;
+    margin-top: 38px;
+    background-color: #fff;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #a04040;
+    border: 1px solid #a04040;
+  }
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  #mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+  #mainNav .navbar-brand .navbar-logo {
+    height: 50px;
+  }
+}
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 0rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616));
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -171,6 +198,17 @@
 
 .btn-primary:active {
   background-color: #692a2a !important;
+}
+
+.masthead .btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: .8rem 1rem;
+  font-family: 'Varela Round';
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
 }
 
 .about-section {
@@ -333,6 +371,22 @@ footer {
   color: rgba(255, 255, 255, 0.66);
   height: 40px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 575.98px) {
+  .menu-toolbar {
+    color: rgba(255, 255, 255, 0.66);
+    height: 40px;
+    background-color: black;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+  .menu-toolbar {
+    color: rgba(255, 255, 255, 0.66);
+    height: 40px;
+    background-color: black;
+  }
 }
 
 .toolbar-a {
