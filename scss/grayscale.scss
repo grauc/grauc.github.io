@@ -53,3 +53,12 @@ footer {
   right: 15%;
   bottom: 30%;
 }
+
+.subheader {
+  transition-timing-function: cubic-bezier(.78,.13,.15,.86);
+}
+.menu-toolbar {
+  color: rgba(255,255,255,.66);
+  height: 40px;
+  background-color: rgba(0,0,0,.2);
+}

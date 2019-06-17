@@ -6,6 +6,7 @@
 
 #mainNav {
   min-height: 56px;
+  margin-top: 40px;
   background-color: #fff;
 }
 
@@ -67,6 +68,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
+    margin-top: 0;
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -320,4 +322,15 @@ footer {
   position: absolute;
   right: 15%;
   bottom: 30%;
+}
+
+.subheader {
+  -webkit-transition-timing-function: cubic-bezier(0.78, 0.13, 0.15, 0.86);
+  transition-timing-function: cubic-bezier(0.78, 0.13, 0.15, 0.86);
+}
+
+.menu-toolbar {
+  color: rgba(255, 255, 255, 0.66);
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
